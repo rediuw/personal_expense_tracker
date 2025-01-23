@@ -1,0 +1,4 @@
+#Sat Dec 14 16:52:11 GMT-08:00 2024
+base.0=C\:\\Users\\Test\\personal_expense_tracker\\android\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
