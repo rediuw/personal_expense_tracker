@@ -48,11 +48,11 @@ View a detailed breakdown of expenses grouped by month and category.
 Set and manage budgets for different categories of expenses.
 
 ## Technologies Used
-**Flutter**: A UI toolkit for building natively compiled applications for mobile.
-Firebase Authentication: For managing user authentication and sign-in.
+**Flutter:** A UI toolkit for building natively compiled applications for mobile.
+**Firebase Authentication:** For managing user authentication and sign-in.
 **SQLite:** For local data storage of expenses, categories, and budgets.
-SharedPreferences: For session management to keep users logged in.
-**Dart**: The programming language used for the app's logic.
+**SharedPreferences:** For session management to keep users logged in.
+**Dart:** The programming language used for the app's logic.
 
 ## Contributions
 Feel free to fork the repository, make improvements, or suggest new features. Contributions are welcome!
@@ -63,6 +63,7 @@ This project is open-source and available under the MIT License. See the LICENSE
 ## Contact
 For further questions or collaborations, please contact me at:
 redietbirhanu64@gmail.com
+
 GitHub: https://github.com/rediuw
 
 ## Acknowledgements
