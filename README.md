@@ -49,9 +49,13 @@ Set and manage budgets for different categories of expenses.
 
 ## Technologies Used
 **Flutter:** A UI toolkit for building natively compiled applications for mobile.
+
 **Firebase Authentication:** For managing user authentication and sign-in.
+
 **SQLite:** For local data storage of expenses, categories, and budgets.
+
 **SharedPreferences:** For session management to keep users logged in.
+
 **Dart:** The programming language used for the app's logic.
 
 ## Contributions
