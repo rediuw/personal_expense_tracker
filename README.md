@@ -1,76 +1,75 @@
-# Personal Expense Tracker
+# 📊 Personal Expense Tracker  
 
-A mobile application built with Flutter that helps users track their personal expenses. The app allows users to log expenses, categorize them, view monthly summaries, and manage their data securely with Firebase Authentication and SQLite.
+A mobile application built with **Flutter** that helps users track their **personal expenses**. The app allows users to **log expenses, categorize them, view monthly summaries, and set budgets**, all while securely managing their data with **Firebase Authentication** and **SQLite**.  
 
-## Features
+## ✨ Features  
 
-- **User Authentication**: Sign up and login functionality using Firebase Authentication.
-- **Expense Management**: Add, edit, and delete expenses with details such as title, amount, date, and category.
-- **Monthly Summary**: View expenses grouped by month and category with a detailed breakdown.
-- **Category Budgeting**: Set and track budgets for different categories.
-- **Session Management**: User session is managed using Firebase and SharedPreferences for persistent login.
-- **Secure Data Storage**: All user data (expenses, budgets, etc.) is stored securely in SQLite.
+✅ **User Authentication** – Sign up and login with **Firebase Authentication**.  
+✅ **Expense Management** – Add, edit, and delete expenses with details like title, amount, date, and category.  
+✅ **Monthly Summary** – View all expenses **grouped by month** and category with a detailed breakdown.  
+✅ **Category Budgeting** – Set and track budgets for different spending categories.  
+✅ **Session Management** – Keep users logged in using **Firebase + SharedPreferences**.  
+✅ **Secure Data Storage** – Expenses, budgets, and categories are stored securely in **SQLite**.  
 
-## Requirements
+## 🔧 Requirements  
 
-- Flutter 3.0 or later
-- Dart 2.14 or later
-- Android Studio or Visual Studio Code (with Flutter & Dart plugins)
-- Firebase account for Authentication
-- SQLite for local data storage
-- SharedPreferences for session management
+📌 **Flutter** 3.0 or later  
+📌 **Dart** 2.14 or later  
+📌 **Android Studio** or **Visual Studio Code** (with Flutter & Dart plugins)  
+📌 **Firebase account** (for Authentication)  
+📌 **SQLite** (for local data storage)  
+📌 **SharedPreferences** (for session management)  
 
-## Setup
+## 🚀 Setup & Installation  
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/rediuw/personal_expense_tracker.git
-2. **Install dependencies:** In your terminal, navigate to the project directory and run:
-   flutter pub get
-3. **Configure Firebase:**
-  -Create a Firebase project at Firebase Console.
-  -Add your Android app to Firebase and download the google-services.json file.
-  -Place google-services.json in the android/app directory of the Flutter project.
-  -Enable Firebase Authentication in the Firebase console.
-4. **Run the app:**  To run the app on an Android device, use the following command:
-    flutter run
+1️⃣ **Clone the repository:**  
+```bash
+git clone https://github.com/rediuw/personal_expense_tracker.git
+```
 
-## Screens
-1. **Login Screen**
-Allows users to log in using their email/username and password.
-2. **Sign-Up Screen**
-Allows new users to sign up by entering their username, email, and password.
-3. **Home Screen**
-Displays the list of expenses, with an option to filter and sort by category and date.
-4. **Expense Details Screen**
-View a detailed breakdown of expenses grouped by month and category.
-5. **Category Budget Screen**
-Set and manage budgets for different categories of expenses.
+2️⃣ **Install dependencies:**  
+```bash
+flutter pub get
+```
 
-## Technologies Used
-**Flutter:** A UI toolkit for building natively compiled applications for mobile.
+3️⃣ **Configure Firebase:**  
+🔹 Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).  
+🔹 Add your Android app and download the `google-services.json` file.  
+🔹 Place `google-services.json` inside the `android/app/` directory.  
+🔹 Enable Firebase Authentication in the Firebase Console.  
 
-**Firebase Authentication:** For managing user authentication and sign-in.
+4️⃣ **Run the app:**  
+```bash
+flutter run
+```
 
-**SQLite:** For local data storage of expenses, categories, and budgets.
+## 📱 Screens Overview  
 
-**SharedPreferences:** For session management to keep users logged in.
+📌 **Login Screen** – Users can log in using their **email/username and password**.  
+📌 **Sign-Up Screen** – New users can **register with a username, email, and password**.  
+📌 **Home Screen** – Displays all **expenses**, with options to **filter & sort** by category and date.  
+📌 **Expense Details Screen** – Shows a **detailed breakdown** of expenses grouped by month and category.  
+📌 **Category Budget Screen** – Allows users to **set and manage budgets** for different spending categories.  
 
-**Dart:** The programming language used for the app's logic.
+## 🛠️ Technologies Used  
 
-## Contributions
-Feel free to fork the repository, make improvements, or suggest new features. Contributions are welcome!
+🚀 **Flutter** – For building the cross-platform mobile UI.  
+🔐 **Firebase Authentication** – Secure login and sign-up functionality.  
+🗄️ **SQLite** – Local database storage for expenses, categories, and budgets.  
+🔄 **SharedPreferences** – Persistent user session management.  
+📌 **Dart** – The programming language powering the app.  
 
-## License
-This project is open-source and available under the MIT License. See the LICENSE file for more information.
+## 🤝 Contributing  
 
-## Contact
-For further questions or collaborations, please contact me at:
-redietbirhanu64@gmail.com
+Want to improve this project? Contributions are **welcome!** Feel free to **fork** the repository, **make improvements**, or **suggest new features**.  
 
-GitHub: https://github.com/rediuw
+## 📜 License  
 
-## Acknowledgements
-Thanks to Firebase for providing the Authentication service.
-Thanks to SQLite for the local storage solution.
+This project is open-source and available under the **MIT License**. See the `LICENSE` file for more details.  
 
+## 📩 Contact  
+
+For any questions or collaborations, reach out to me at:  
+
+📧 **Email**: redietbirhanu64@gmail.com  
+🐙 **GitHub**: [@rediuw](https://github.com/rediuw)  
